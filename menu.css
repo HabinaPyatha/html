@@ -12,13 +12,9 @@ table{_
   border-collapse: collapse;
 }
 div.mycontainer{
-  width:100%;
-  overtflow:auto;
+  display:flex;
 }
-div.mycontainer div{
-  width:50%;
-  float:left;
-}
+
 
 
 
