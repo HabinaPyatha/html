@@ -1,9 +1,19 @@
 body{
-    background-color:yellow;
+    background-color:rgb(194, 194, 62);
 }
-h1{color:blue;
+h1{text-align:center;
+}
+hr{ border: 1px solid black;
 }
 table, th, td{
     border: 1px solid black;
+}
+table{_ 
   border-collapse: collapse;
+}
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width:33%;
 }
