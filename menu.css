@@ -11,9 +11,11 @@ table, th, td{
 table{_ 
   border-collapse: collapse;
 }
-.mycontainer {
-  display: flex;
+div.mycontainer{
+  width:100%;
+  overtflow:auto;
 }
-.mycontainer > div {
-  width:33%;
+div.mycontainer div{
+  width:50%;
+  float:left;
 }
