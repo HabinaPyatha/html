@@ -8,12 +8,21 @@ hr{ border: 1px solid black;
 table, th, td{
     border: 1px solid black;
 }
-table{_ 
+table{
   border-collapse: collapse;
+  width:80%;
+  margin:auto;
+
 }
-div.mycontainer{
-  display:flex;
+.mycontainer{
+display:flex;
+justify-content:space-around;
+align-items:center;
+gap:30px;
 }
+coffee-photo{
+  width:100px;
+  height:50px;
 
 
 
